@@ -10,10 +10,31 @@ body {
     min-height: 100vh;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 2.4rem;
+    text-align: center;
+}
+
+.typewrite {
+    max-width: 100%;
+    text-align: center;
+}
+
+.socials__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  .social__image {
+    height: 70px;
+    width: 70px;
+    margin: 0 1rem;
+    max-width: 100%;
+  }
 }
 
 @keyframes gradient {
